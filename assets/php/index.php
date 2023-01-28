@@ -16,12 +16,12 @@ if(isset($_POST['senha'] ) && empty($_POST['senha']) == false) {
 
         $_SESSION['id'] = $dado['id'];
 
-        header("Location: ../../../pagina-principal/index.php");
+        header("Location: ../pagina-principal/index.php");
     }else {
-        header("Location: ../../index.html");
+        header("Location: ../index.html");
     }
 }else {
-    header("Location: ../../index.html");
+    header("Location: ../index.html");
 }
 
 ?>
